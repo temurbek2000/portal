@@ -1,0 +1,69 @@
+.main_footer{
+    background-image: url("../images/footer_background.png");
+}
+.main_footer .container{
+    padding: 50px;
+}
+.input_footer{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #41454D;
+    padding: 20px;
+}
+.ant-btn-primary {
+    color: #fff;
+    border-radius: 20px;
+    background: #08C784;
+    border-color: transparent;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.first_ul_footer{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.first_ul_footer li{
+    cursor: pointer;
+    display: inline-block;
+    color: #B7BABE;
+    font-family: SansSerif;
+    padding: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.menu_hr{
+    position: absolute;
+    width: 95%;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+}
+.second_ul_menu_footer{
+    list-style-type: none;
+    padding-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.second_ul_menu_footer li{
+    cursor: pointer;
+    display: inline-block;
+    color: #B7BABE;
+    padding: 20px;
+    margin-right: 10px;
+    font-family: SansSerif;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.second_ul_menu_footer li:hover,.first_ul_footer li:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    font-family: Manrope;
+
+}

@@ -1,0 +1,53 @@
+.main_forum{
+    background-color: #F5F5F7;
+    padding: 20px;
+}
+active .ant-tabs-tab-btn {
+    color: #08C784;
+    text-shadow: 0 0 0.25px currentColor;
+}
+.add_question_div{
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F4F4F6;
+    color: #61666D;
+    font-size: 14px;
+    font-family: Manrope;
+}
+.add_plus_btn{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    outline: none;
+    font-family: fantasy;
+    background-color: #08C784;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 7%;
+    right: 10%;
+}
+.messages_forum{
+    border-radius: 15px;
+    color: #00C580;
+    padding: 0 10px 0 10px;
+    background-color: #EBFBF5;
+    border: none;
+    outline: none;
+}
+@media only screen and (max-width: 600px) {
+    .commentModal .ant-modal-body{
+        height: 400px;
+    }
+
+}
+@media only screen and (min-width: 600px) {
+    .commentModal .ant-modal-body{
+        height: 300px;
+    }
+
+}

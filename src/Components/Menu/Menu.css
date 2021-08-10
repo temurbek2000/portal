@@ -1,0 +1,275 @@
+.menu{
+    background-image: url("../images/menu_background.jpg");
+    padding: 5px;
+    z-index: 2000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.menu_logo{
+    font-size: 40px;
+    color: white;
+    font-family: fantasy;
+    font-weight: 1000;
+}
+
+.first_ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 25px;
+    width: 100%;
+}
+.first_ul li{
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-family: SansSerif;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 12px;
+    font-size: 16px;
+}
+.menu_hr{
+    position: absolute;
+    width: 95%;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+}
+.second_ul_menu{
+    list-style-type: none;
+    padding-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.second_ul_menu li{
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: SansSerif;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.second_ul_menu li:hover, .first_ul li:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    font-family: Manrope;
+
+}
+.language{
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.voyti_btn{
+    width: 87px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    color: rgba(0, 197, 128, 0.97);
+    margin-left: 63%;
+    outline: none;
+}
+.uz_check {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAdVBMVEX///8etToAmbXOECXNABD99fYWka3XABHWACQsqzkAlbIAmLUAk7EAlLEAkK/v+Prm8/YxpL0AjKxQrsSv1eDG4+o/qcCVy9i53OWAwtJjtcml097V6/Ahn7nr9vlMrsR5wNCezdrM5ux+wNGa0d2NyNZgtMjNlp4mAAAE0ElEQVR4nO2c6ZaqOBRG0/achESUSYYSrKvv/4gdQSB4G0j10VWa/vaPWisrkJJdGU4OKdkGEGDf/QHeG+gjAX0koI+Esz7BZSAD/pBfKh7Syivgps+oOx6iLI7T0O3Rk6WiqEKnRt4AF31c5jEz6DSRTo0KWU4ulPHEOj+cH9OLv591fULV+ipvmyvHh654whJeDUUhWWrrVKdSffVzviir+mS4vcpjZ1d5G562N6S3Difythj31V1722Tu9rdiTZ+s24fXYeDepkzMHeM458IIO6hh+KrMyFR+LB8r+lTXk7biK08rQrZl1mwnTdGa7WTM9MltEn15lvXJm72vzfS8OOwOxXCPyDOVxJavciPKr33Kl2VR323ksq8GahXf2MKrYNKAqd3I6v6e92RJnxmELXtfwozHs6RPla29zJN56hks6OP90AWzLMiRXcBXoPPNM69P7LvO58kk/xzm9cmstVei8y2woE93m7X/tOz6sadYZ17fLWpJ3ExMh7ioxEKtR8zq69ddR3vFpJMG02CHFxN/Iv/0JZKc19ft17TD1CcC9al3clDClWl2TNAIudO1Coa/g9xl8c6TGXVWnyy67e76c4oqKzUry7zPUP0ot2xb/hgSVmXJdJn14zk5mWi8LD1PWLnrM1yT0ZfhSnm+Ljlj8WKn+4xtE09uQz+G70P08dxcaCWQxXSvooyv3EpYmZYj3wdvP/e5pEnl6VzpcTTyNBZxOvpKPqqzleCT+rJ3avYNmNeXuyerxDEQ3JrMjnIjj2MxESIYa0UYcl45vrF7dVbjvv3Dn1MMP96f1V1H6scc/yTm9QVRt+f15Z3iU1jIuBy70evNiYBnsJDvuyWbfYkxnsJStvmChN8ai+86Tt35AMx+syy/yei6X/4vw/c+8Lgr88VaT6KWzYo+fsvX/xzjistdPDjNqvJpuMMP05v3F18Erpwy+Ox2bj91LhUVVkaKy3y748M1XHLGpVW92+bSqlZFpLgfAldeQ/YnhKpJb9pHqf5oottGTFRRU7ImqvsMVdpkLGuGE1Z11LCyiYaEVdRonUaP3818B6snrG7jd2/Pf7ztlHWvVByvGxQr33yNeMZTLPyau9HHXleXxv70IxxafQnO22SeCf/sc82qsRN67RxZ7qxqc721XO+MzqOVsEoZazxZzR3OEKh9Fz+fA9n3IKmb4mPUF8Sn2mqI1zrX1uuMitWnbMxQKV2k+v+jbyNUUny0p10utzUkzKXMx/VYHJQMx9WU15zzelw6LqFU49orqvbmh3z6b8ftBIuQqrocmiI63xYA89M+Mck3k2CObyaRn7grCn8iP/cDQIKbYMSTeONh4PwUCegjAX0koI8E+wMQYH8CAuxXQID9Bgiw3wEBBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvynf/P/Z7g+8yIIFv0iDB/gIE2N+AAPsFEIA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+EtBHAvpIQB8J6CMBfSSgjwT0kYA+Ev8APLAl7ktTkjoAAAAASUVORK5CYII=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.ru_check {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAGFBMVEX////VKx4AOabp6/QAOahNNonSKxkAH6AUCMCPAAAA+UlEQVR4nO3QsQGDAAzAsFCg/P8xezyxSydoBgAAAAAAAAAAAAAAAAAAAOCjk20etvmxOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTmpudjmZps/2xxsTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTmpF6311+zkhZjrAAAAAElFTkSuQmCC");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .first_ul,.menu_hr,.second_ul_menu,.voyti_btn,.language_select,.sticky_menu{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .menu_logo{
+        width: 100px;
+        height: 60px;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 1000px) {
+    .first_ul,.menu_hr,.second_ul_menu,.voyti_btn,.language_select,.sticky_menu{
+        display: block;
+    }
+    .menu_btn{
+        display: none;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+
+}
+@media only screen and (max-width: 700px) {
+    .menu{
+        height: 90px;
+    }
+
+}
+.sidebar_ul{
+    list-style-type: none;
+}
+.sidebar_ul li{
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    font-family: Manrope;
+    cursor: pointer;
+}
+.ant-drawer-wrapper-body{
+    background-color: #08C784;
+}
+.sidebar_voyti_btn{
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: gray;
+    padding: 30px 20px 10px 20px;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.sidebar_voyti_btn:after{
+    border: none;
+}
+.sticky_menu{
+    z-index: 1;
+    margin-top: -46px;
+    background: transparent;
+}
+.z_index{
+    z-index: 2000;
+}
+
+.Sign_modal .ant-modal-content{
+    position: relative;
+    box-sizing: border-box;
+    width: 70%;
+    margin-left: 15%;
+    padding-left: 7%;
+
+
+}
+.Sign_in_button{
+    width: 58%;
+    margin-left: 5%;
+    background-color: #B2B8BF;
+    border-radius: 10px;
+}
+.Sign_in_button h3{
+    color: black;
+    margin-top: -3px;
+}
+.Sign_button:hover{
+    background-color: #B2B8BF;
+    border: none;
+}
+.remember_password{
+    color: gray;
+    font-family: Manrope;
+}
+.to_sign_up{
+    font-family: Manrope;
+    color: #08C784;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -4px;
+}
+.idGov{
+    background-color: #08C784;
+}
+.Sign_up_modal .ant-modal-content{
+    width: 120%;
+    margin-left: -10%;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+}
+.Sign_button{
+    width: 50%;
+    margin-left: 15%;
+    background-color: #B2B8BF;
+    border-radius: 10px;
+}
+.Sign_button h3{
+    color: black;
+    margin-top: -3px;
+}
+.Sign_button:after{
+    background-color: #B7BABE;
+}
+.Sign_button:hover{
+    background-color: #B2B8BF;
+    border: none;
+}
+.remember_password{
+    color: gray;
+    font-family: Manrope;
+}
+.to_sign_up{
+    font-family: Manrope;
+    color: #08C784;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -4px;
+}
+.idGov{
+    background-color: #08C784;
+}
+.ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #08C784;
+    border-color: #08C784;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: white;
+    border: 5px solid #08C784;
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color: #08C784;
+}
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #08C784;
+}
+
+.Sign_up_modal .ant-modal-footer{
+    padding: 10px 16px;
+    text-align: right;
+    background: transparent;
+    border-top: 1px solid #f0f0f0;
+    border-radius: 0 0 2px 2px;
+    margin-top: 35%;
+}
+
+.LogoutCofirm .ant-modal-body{
+    width: 80%;
+}
+

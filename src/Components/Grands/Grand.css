@@ -1,0 +1,66 @@
+.grand_main{
+}
+.grand_main .nasha_title{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+}
+.grand_main .nasha_text{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #61666D;
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+
+    .grand_main  .nasha_title{
+        margin-top: 10px;
+        text-align: center;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        /*line-height: 56px;*/
+    }
+    .grand_main .nasha_text{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        /*line-height: 24px;*/
+        text-align: center;
+        color: #61666D;
+    }
+
+
+}
+@media only screen and (max-width: 800px) {
+
+    .grand_main .nasha_title{
+        margin-top: 10px;
+        text-align: center;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        /*line-height: 56px;*/
+    }
+    .grand_main .nasha_text{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        color: #61666D;
+    }
+
+
+}
